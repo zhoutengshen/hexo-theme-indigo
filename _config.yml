@@ -1,12 +1,6 @@
 # hexo-theme-indigo
 # https://github.com/yscoder/hexo-theme-indigo
 
-# 添加新菜单项遵循以下规则
-# menu:
-#  link:               fontawesome图标，省略前缀，本主题前缀为 icon-，必须
-#    text: About       菜单显示的文字，如果省略即默认与图标一致，首字母会转大写
-#    url: /about       链接，绝对或相对路径，必须。
-#    target: _blank    是否跳出，省略则在当前页面打开
 menu:
   home:
     text: 主页
@@ -15,18 +9,9 @@ menu:
     url: /archives
   tags:
     url: /tags
-  th-list:
-    text: Categories
-    url: /categories
   github:
-    url: https://github.com/yscoder
+    url: https://github.com/zhoutengshen/
     target: _blank
-  weibo:
-    url: http://www.weibo.com/ysweb
-    target: _blank
-  link:
-    text: 测试
-    url: /custom
 
 # 你的头像url
 avatar: /img/avatar.jpg
@@ -59,13 +44,13 @@ archive_yearly: true
 show_last_updated: true
 
 # 是否开启分享
-share: true
+share: false
 
 # 是否开启打赏，关闭 reward: false
-reward:
-  title: 谢谢大爷~
-  wechat: /img/wechat.jpg     #微信，关闭设为 false
-  alipay: /img/alipay.jpg     #支付宝，关闭设为 false
+reward: false
+  # title: 谢谢大爷~
+  # wechat: /img/wechat.jpg     #微信，关闭设为 false
+  # alipay: /img/alipay.jpg     #支付宝，关闭设为 false
 
 # 是否开启搜索
 search: true
@@ -118,10 +103,10 @@ gitment: false
 
 # use gitalk://github.com/gitalk/gitalk
 gitalk: false
-#  owner: 
-#  repo: 
-#  client_id: 
-#  client_secret: 
+#  owner:
+#  repo:
+#  client_id:
+#  client_secret:
 
 # Valine Comment system. https://valine.js.org
 valine:
